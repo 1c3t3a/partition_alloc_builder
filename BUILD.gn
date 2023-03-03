@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-component("palib") {
+shared_library("palib") {
   sources = [
     "//base/allocator/partition_allocator/shim/allocator_shim_override_linker_wrapped_symbols.h",
     "//base/allocator/partition_allocator/shim/allocator_shim_internals.h"
